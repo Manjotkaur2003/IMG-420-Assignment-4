@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3]
+
+[node name="Sparkle" type="GPUParticles2D"]
+amount = 40
+lifetime = 0.4
+one_shot = true
+emitting = false
+process_material = SubResource("ParticlesMaterial")
+color = Color(1, 1, 0.2, 1)
+
+[sub_resource type="ParticlesMaterial" id=1]
+gravity = Vector2(0, 0)
+spread = 180.0
+initial_velocity_min = 60.0
+initial_velocity_max = 120.0
+scale = 0.8
